@@ -3,14 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro C 
+		inteiro C = sorteia(0, 200)
 		real T 
 		real N
 		real S = 50 * 10
-
-		escreva("Código do operário: ")
-			leia(C)
-			limpa()
+		
 		escreva("Número de horas trabalhadas: ")
 			leia(N)
 			limpa()
@@ -31,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 84; 
+ * @POSICAO-CURSOR = 62; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
