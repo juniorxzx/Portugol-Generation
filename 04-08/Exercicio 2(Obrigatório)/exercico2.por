@@ -3,14 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro C 
+		inteiro C = sorteia(0,200)
 		real T 
 		real N
 		real S = 50 * 10
 
-		escreva("Código do operário: ")
-			leia(C)
-			limpa()
 		escreva("Número de horas trabalhadas: ")
 			leia(N)
 			limpa()
