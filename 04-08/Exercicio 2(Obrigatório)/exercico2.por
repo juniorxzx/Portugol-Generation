@@ -3,11 +3,19 @@ programa
 	
 	funcao inicio()
 	{
+<<<<<<< HEAD
 		inteiro C = sorteia(0, 200)
 		real T 
 		real N
 		real S = 50 * 10
 		
+=======
+		inteiro C = sorteia(0,200)
+		real T 
+		real N
+		real S = 50 * 10
+
+>>>>>>> 48659f259e6a4f33c92fd940d46ec2274fa7aacc
 		escreva("Número de horas trabalhadas: ")
 			leia(N)
 			limpa()
